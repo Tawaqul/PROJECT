@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>MD ESSENTIAL</title>
 
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -15,7 +15,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link href="./style.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet" />
   </head>
   <body>
     <div class="hero_section">
@@ -30,9 +30,9 @@
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
+            aria-controls="#navbarSupportedContent"
             aria-expanded="false"
-            aria-label="Toggle navigation"
+            aria-label="toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -81,7 +81,7 @@
               <button class="btn btn-shop">SHOP NOW</button>
             </div>
           </div>
-          <div class="col-lg-8">
+          <div class="col-lg-8" id="hero_box_img">
             <p class="hero_text">ESSENTIAL OIL</p>
             <img
               src="./image-removebg-preview (1) 1.png"
@@ -92,7 +92,7 @@
         </div>
       </div>
     </div>
-    <section class="our service">
+    <section class="service mb-5">
       <div class="container">
         <div class="text-header text-center">
           <h3>OUR SERVICE</h3>
@@ -152,170 +152,180 @@
         </div>
       </div>
     </section>
-    <section class="products">
+    <section class="products mt-5 mb-5">
       <div class="container">
-        <div class="text-header text-left">
-          <div class="row">
-            <div class="col-sm-6">
-              <h2>PRODUCTS</h2>
-              <div class="col-sm-6"></div>
-            </div>
-          </div>
+        <div class="text-left">
+          <h2>PRODUCTS</h2>
         </div>
-
-        <div class="container-fluid row">
-          <div class="col-sm-3">
-            <img src="./Frame 6.png" alt="An image" />
+        <div class="row">
+          <div class="col-lg-3">
+            <img src="./Frame 6.png" alt="An image" class="img-fluid" />
           </div>
-          <div class="col-sm-3">
-            <img src="./Frame 13.png" alt="An image" />
+          <div class="col-lg-3">
+            <img src="./Frame 13.png" alt="An image" class="img-fluid" />
           </div>
-          <div class="col-sm-3">
-            <img src="./Frame 14.png" alt="An image" />
+          <div class="col-lg-3">
+            <img src="./Frame 14.png" alt="An image" class="img-fluid" />
           </div>
-          <div class="col-sm-3">
-            <img src="./Frame 15.png" alt="An image" />
+          <div class="col-lg-3">
+            <img src="./Frame 15.png" alt="An image" class="img-fluid" />
           </div>
-        </div>
-        <div class="container-fluid row">
-          <div class="col-sm-3">
-            <img src="./Frame 6.png" alt="An image" />
+          <div class="col-lg-3">
+            <img src="./Frame 6.png" alt="An image" class="img-fluid" />
           </div>
-          <div class="col-sm-3">
-            <img src="./Frame 6.png" alt="An image" />
+          <div class="col-lg-3">
+            <img src="./Frame 6.png" alt="An image" class="img-fluid" />
           </div>
-          <div class="col-sm-3">
-            <img src="./Frame 6.png" alt="An image" />
+          <div class="col-lg-3">
+            <img src="./Frame 6.png" alt="An image" class="img-fluid" />
           </div>
-          <div class="col-sm-3">
-            <img src="./Frame 6.png" alt="An image" />
+          <div class="col-lg-3">
+            <img src="./Frame 6.png" alt="An image" class="img-fluid" />
           </div>
         </div>
       </div>
     </section>
-    <section class="Benefits">
+    <section class="Benefits mt-5 mb-5">
       <div class="container">
-        <div class="text-header text-center">
-          <h3>Benefits</h3>
-        </div>
-        <div class="items text-center">
+        <h3 class="text-center mb-5">Benefits</h3>
+        <div class="items">
           <div class="row">
             <div class="col-md-3">
-              <div class="icons">
-                <img src="./Group 14 (1).png" alt="An image" />
-              </div>
-              <div class="desc">
-                <h5>Lavender</h5>
-                <p>
-                  Lavender oil with is fresh and floral aroma can promote
-                  physical and mental health.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="icons">
-                <img src="./Group 14 (1).png" alt="An image" />
-              </div>
-              <div class="desc">
-                <h5>Bergamot</h5>
-                <p>
-                  Bergamot is used to reduce stress and improve skin conditions
-                  like eczema.
-                </p>
+              <div class="card p-3 h-100">
+                <div class="icons">
+                  <img src="./Group 14 (1).png" alt="An image" />
+                </div>
+                <div class="desc">
+                  <h5 class="mt-3 mb-4">Lavender</h5>
+                  <p>
+                    Lavender oil with is fresh and floral aroma can promote
+                    physical and mental health.
+                  </p>
+                </div>
               </div>
             </div>
             <div class="col-md-3">
-              <div class="icons">
-                <img src="./Group 14 (1).png" alt="An image" />
-              </div>
-              <div class="desc">
-                <h5>Sandalwood</h5>
-                <p>
-                  Sandalwood oil provides relieving and cooling effect when
-                  applied on the skin,giving the user required peace of mind.
-                </p>
+              <div class="card p-3 h-100">
+                <div class="icons">
+                  <img src="./Group 14 (1).png" alt="An image" />
+                </div>
+                <div class="desc">
+                  <h5 class="mt-3 mb-4">Bergamot</h5>
+                  <p>
+                    Bergamot is used to reduce stress and improve skin
+                    conditions like eczema.
+                  </p>
+                </div>
               </div>
             </div>
             <div class="col-md-3">
-              <div class="icons">
-                <img src="./Group 14 (1).png" alt="An image" />
+              <div class="card p-3 h-100">
+                <div class="icons">
+                  <img src="./Group 14 (1).png" alt="An image" />
+                </div>
+                <div class="desc">
+                  <h5 class="mt-3 mb-5">Sandalwood</h5>
+                  <p>
+                    Sandalwood oil provides relieving and cooling effect when
+                    applied on the skin,giving the user required peace of mind.
+                  </p>
+                </div>
               </div>
-              <div class="desc">
-                <h5>Chamomile</h5>
-                <p>
-                  Chamomile is perfect if you're feeling a little-low it can
-                  even be used for depression.
-                </p>
+            </div>
+            <div class="col-md-3">
+              <div class="card p-3 h-100">
+                <div class="icons">
+                  <img src="./Group 14 (1).png" alt="An image" />
+                </div>
+                <div class="desc">
+                  <h5 class="mt-3 mb-5">Chamomile</h5>
+                  <p>
+                    Chamomile is perfect if you're feeling a little-low it can
+                    even be used for depression.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="testimonal-section">
-      <div class="testimonial-section-master-div">
-        <div class="testimonial-section-sub1">
-          <img src="./Rectangle 16.png" alt="" />
-          <div class="testimonial-section-sub1-div">
-            <h1>"</h1>
-          </div>
-        </div>
-        <div class="testimonial-section-sub2">
-          <div class="testimonial-section-sub2-sub1">
-            <div class="testimonial-sub">
-              <h1>TESTIMONIALS</h1>
+    <div class="test_box">
+      <div class="container">
+        <section class="testimonal-section">
+          <div class="testimonial-section-master-div">
+            <div class="testimonial-section-sub1">
+              <img src="./Rectangle 16.png" alt="" />
+              <div class="testimonial-section-sub1-div">
+                <h1>"</h1>
+              </div>
             </div>
-            <div class="testimonial-sub1">
-              <i class="bx bx-chevron-right rp"></i>
-              <i class="bx bx-chevron-left mp"></i>
-            </div>
-          </div>
-          <div class="testimonial-section-sub2-sub2">
-            <div class="sub2-master">
-              <div class="sub2-master-sub"></div>
-              <div class="sub2-master-sub1">
-                <h2>Mayor Debby</h2>
-                <p>
-                  I researched about how to use it and started using it.I
-                  started diffusing it as well as applying it to everyone's
-                  feet.Since introducing method into our daily routines,we have
-                  been staying healthy.
-                </p>
+            <div class="testimonial-section-sub2">
+              <div class="testimonial-section-sub2-sub1">
+                <div class="testimonial-sub">
+                  <h1>TESTIMONIALS</h1>
+                </div>
+                <div class="testimonial-sub1">
+                  <i class="bx bx-chevron-right rp"></i>
+                  <i class="bx bx-chevron-left mp"></i>
+                </div>
+              </div>
+              <div class="testimonial-section-sub2-sub2">
+                <div class="sub2-master">
+                  <div class="sub2-master-sub"></div>
+                  <div class="sub2-master-sub1">
+                    <h2>Mayor Debby</h2>
+                    <p>
+                      I researched about how to use it and started using it.I
+                      started diffusing it as well as applying it to everyone's
+                      feet.Since introducing method into our daily routines,we
+                      have been staying healthy.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
-    </section>
+    </div>
     <div class="container-fluid"></div>
     <img src="./Discount.png" class="img-fluid" alt="An image" />
     <footer>
-      <div class="footer-master">
-        <div class="footer-div">
-          <div class="footer-div-sub">
+      <div class="container">
+        <div class="row p-5">
+          <div class="col-lg-5">
             <h2>Don't Miss Out</h2>
             <p>Sign up for the latest new product,newsleeter and coupons.</p>
-            <h4>email address</h4>
-            <input type="text" placeholder="Enter Your Email Address" />
-            <button>SIGN UP</button>
+            <p class="fw-bold">EMAIL ADDRESS</p>
+            <form action="" method="post" class="text-center">
+              <input
+                type="text"
+                class="form-control bg-dark mb-2"
+                placeholder="Enter Your Email Address"
+              />
+              <button class="btn btn-light text-center signup-btn">
+                SIGN UP
+              </button>
+            </form>
           </div>
-        </div>
-        <div class="footer-div1">
-          <h3>COMPANY</h3>
-          <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Gallery</li>
-            <li>Service</li>
-            <li>About Us</li>
-          </ul>
-        </div>
-        <div class="footer-div2">
-          <div class="links">
-            <i class="bx bxl-facebook-circle"></i>
-            <i class="bx bxl-instagram-alt"></i>
-            <i class="bx bxl-pinterest"></i>
-            <i class="bx bxl-twitter"></i>
+          <div class="col-lg-3 text-center">
+            <h3>COMPANY</h3>
+            <ul class="footer-link">
+              <li>Home</li>
+              <li>About</li>
+              <li>Gallery</li>
+              <li>Service</li>
+              <li>About Us</li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <div class="socials text-end">
+              <i class="bx bxl-facebook-circle"></i>
+              <i class="bx bxl-instagram-alt"></i>
+              <i class="bx bxl-pinterest"></i>
+              <i class="bx bxl-twitter"></i>
+            </div>
           </div>
         </div>
       </div>
