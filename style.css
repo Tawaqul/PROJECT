@@ -1,0 +1,321 @@
+.hero_section{
+    background-image: url('./landing\ page.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero_box {
+    margin-top: 90px !important;
+}
+.btn-shop {
+    background-color: #D88538;
+    border-radius: 8px;
+    
+}
+ p.hero_text {
+    color: rgba(231, 159, 93, 0.11);
+    font-size: 50px;
+    letter-spacing: 0.4em;
+    font-weight: 500;
+    margin-left: 90px;
+  } 
+ .hero_box h1 {
+    color: rgba(216, 133, 56, 1);
+    font-size: 35px; 
+ }
+.hero_box p {
+    font-size: 20px;
+}
+
+section.hero {
+    padding:80px 0;
+}
+section.hero.text {
+    font-weight: 000;
+    font-size: 43px;
+    line-height:73px;
+    color:var(#D88538);
+}
+.h1{
+    color: #D88538;
+}
+.button.btn{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+}
+section.our.service {
+    padding:287px 0
+}
+section.our.service.text-header h3 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 42px;
+    color:var(black);
+
+}
+section.our.service.text-header p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color:var(black);
+}
+section.our.service.icons {
+    padding: 27px 0;
+} 
+section.our.service h5{
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+color: black;
+padding-bottom: 18px;
+}
+section.our.service.desc p{
+font-weight: 400;
+font-size: 13px;
+line-height: 27px;
+color: gray;
+max-width: 234px;
+margin: 0 auto;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* colors */
+:root{
+    --first-color: #FDF5EF;
+    --second-color: #E79F5D;
+}
+.testimonial-section{
+    background-color: var(--second-color);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.testimonial-section-master-div{
+    width: 80%;
+    height: 80%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial-section-sub1{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* padding: 10px; */
+}
+.testimonial-section-sub1 img{
+    width: 90%;
+    height: auto;
+}
+.testimonial-section-sub1-div{
+    width: 45px;
+    height: 55px;
+    background-color: var(--second-color);
+    color: #fff;
+    position: absolute;
+    top: -1.5rem;
+    right: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial-section-sub1-div h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    padding-top: 7px;
+    font-weight: 400;
+}
+.testimonial-section-sub2{
+    width: 70%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+.testimonial-section-sub2-sub1{
+    width: 100%;
+    height: 35%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial-sub{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial-sub h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 6rem;
+    margin-left: -5rem;
+}
+.testimonial-sub1{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial-sub1 i{
+    font-size: 2rem;
+    padding: 2px;
+    /* background-color: var(--second-color); */
+    border-radius: 50%;
+    margin-right: 4px;
+    margin-top: 6rem;
+    margin-left: -6rem;
+}
+.mp{
+    background-color: #e7a05d3e;
+    color: var(--second-color);
+}
+.rp{
+    background-color: var(--second-color);
+    color: #fff;
+}
+.testimonial-section-sub2-sub2{
+    width: 100%;
+    height: 65%;
+}
+.sub2-master{
+    width: 86%;
+    height: 100%;
+    background-color: #fff;
+    margin-left: -3rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub2-master-sub{
+    width: 21.5%;
+    height: 100%;
+    background-color:#D88538;
+}
+.sub2-master-sub1{
+    width: 78.5%;
+    height: 100%;
+    display: block;
+    padding: 6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* justify-content: center;
+    align-items: center; */
+}
+.sub2-master-sub1 h2{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+.sub2-master-sub1 p{
+    font-size: 0.9rem;
+}
+footer{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--first-color);
+}
+.footer-master{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.footer-div{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.footer-div-sub{
+    width: 80%;
+    height: 80%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.footer-div-sub h2{
+    text-transform: capitalize;
+    font-size: 1.9rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.footer-div-sub p{
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+.footer-div-sub h4{
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+.footer-div-sub input{
+    width: 80%;
+    height: 50px;
+    padding: 8px;
+    background-color: black;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+
+}
+.footer-div-sub input::placeholder{
+    color: #fff;
+}
+.footer-div-sub button{
+    width: 40%;
+    height: 30px;
+    border: 2px solid black;
+    outline: none;
+    margin-top: 13px;
+    margin-left: 5rem;
+    background-color: transparent;
+}
+.footer-div1{
+    width: 20%;
+    height: 100%;
+
+}
+.footer-div2{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links i{
+    margin: 10px;
+    font-size: 1.1rem;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+/* @media  screen and(max-width:1200px) {
+    font-size: 120px;
+    
+}
+@media screen and (max-width:992px) {
+    font-size: 110px;
+} */
